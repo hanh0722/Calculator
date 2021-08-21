@@ -1,0 +1,12 @@
+@import '../constants/constants.scss';
+.button{
+    padding: 20px 15px;
+    border: 1px solid white;
+    color: black;
+    font-weight: normal;
+    transition: all .5s;
+    background: rgba($color: $green, $alpha: .75);
+    &:hover{
+        background: rgba($color: $green, $alpha: .9);
+    }
+}
